@@ -1,0 +1,29 @@
+{
+  "name": "spotify-overlay",
+  "version": "0.0.1",
+  "description": "idk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S4WA/Spotify-Overlay.git"
+  },
+  "author": "Drip",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/S4WA/Spotify-Overlay/issues"
+  },
+  "homepage": "https://github.com/S4WA/Spotify-Overlay#readme",
+  "devDependencies": {
+    "app": "^0.1.0",
+    "electron": "^10.1.2"
+  },
+  "dependencies": {
+    "browser-window": "^0.4.0",
+    "electron-store": "^6.0.0",
+    "localStorage": "^1.0.4",
+    "menu": "^0.2.5"
+  }
+}
