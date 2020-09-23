@@ -1,12 +1,26 @@
-<h1>hello world</h1>
-<style type="text/css">
-  body {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    pointer-events: none;
-  }
-</style>
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <style type="text/css">
+    body {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+  <img src="">
+  <script type="text/javascript">
+    var my_client_id = "f77816efcc4243849b33c18811478ecc", redirect_uri = "https://akiba.cloud/spotify-overlay/callback"; //http://localhost:49698/callback
+    require("electron").shell.openExternal("https://accounts.spotify.com/authorize?response_type=code" +
+      "&client_id=" + my_client_id +
+      "&redirect_uri=" + redirect_uri);
+  </script>
+</body>
+</html>
